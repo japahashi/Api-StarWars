@@ -4,15 +4,57 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url(IMG/Space.jpg); 
-    display: flex;
-    justify-content: flex-start;     
+    width: 100vw;
+    height: 100vh;
+    background-image: url(IMG/Space.jpg);
 }
-
-.Catalogo{
+header{
+    height: 10vh;
+    width: 100vw;
+}
+header img {
+    width: 14vw;
+    height: 15vh;
+}
+main{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
     
 }
-.Logo-starwars{
+.catalogo{
+    width: 80vh;
+    height: 80vh;
     display: flex;
-    height: 150px;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+    flex-wrap: wrap;
 }
+.catalogo div{
+    width: 300px;
+    height: 300px;
+    background-color: #FFE81F;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+
+}
+.catalogo img{
+    height: 15vh;
+    width: 10vw;
+    display: flex;
+    
+}
+
+
+
+
+
+
